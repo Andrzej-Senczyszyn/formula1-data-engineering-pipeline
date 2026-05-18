@@ -2,7 +2,7 @@
 
 Cloud-based end-to-end data engineering pipeline built using Azure Databricks, PySpark, Delta Lake, Unity Catalog, Lakeflow Jobs, and Azure Data Lake Storage Gen2.
 
-The project follows a Medallion Architecture (Bronze → Silver → Gold) and implements scalable batch processing, incremental data ingestion, orchestration workflows, and analytical data modeling using Formula 1 racing datasets.
+The project follows a Medallion Architecture (Bronze → Silver → Gold) and implements scalable batch processing, incremental ingestion, orchestration workflows, and analytical data modeling using Formula 1 racing datasets.
 
 ---
 
@@ -16,6 +16,12 @@ This project simulates a production-style Data Engineering workflow:
 - Implement incremental processing using batch control logic
 - Orchestrate notebook dependencies using Databricks Lakeflow Jobs
 - Create analytical views for downstream reporting
+
+---
+
+## Raw Data Schema
+
+![Raw ERD](notebooks/07-images/formula1-raw-data-erd.png)
 
 ---
 
@@ -43,7 +49,7 @@ Features:
 
 ## Medallion Architecture
 
-![Medallion Architecture](notebooks/07-images/incremental-data-processing-medallion.png)
+![Medallion Architecture](notebooks/07-images/formula1-incremental-data-processing.png)
 
 ### Bronze Layer
 Raw ingestion layer:
