@@ -21,7 +21,7 @@ This project simulates a production-style Data Engineering workflow:
 
 ## Raw Data Schema
 
-![Raw ERD](notebooks/07-images/formula1-raw-data-erd.png)
+![Raw ERD](./notebooks/07-images/formula1-raw-data-erd.png)
 
 ---
 
