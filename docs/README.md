@@ -1,1 +1,3 @@
-Project documentation and architecture notes.
+# Documentation
+
+Additional architecture diagrams, workflows, and supporting project documentation.
