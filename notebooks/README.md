@@ -27,7 +27,7 @@ This project simulates a production-style Data Engineering workflow:
 
 ## Architecture
 
-![Pipeline Workflow](notebooks/07-images/formula1-lakeflow-pipeline.png)
+![Pipeline Workflow](./notebooks/07-images/formula1-lakeflow-pipeline.png)
 
 ---
 
@@ -35,7 +35,7 @@ This project simulates a production-style Data Engineering workflow:
 
 This project supports incremental processing using control tables and workflow state tracking.
 
-![Incremental Workflow](notebooks/07-images/formula1-batch-control-flow.png)
+![Incremental Workflow](./notebooks/07-images/formula1-batch-control-flow.png)
 
 Features:
 
@@ -49,9 +49,10 @@ Features:
 
 ## Medallion Architecture
 
-![Medallion Architecture](notebooks/07-images/formula1-incremental-data-processing.png)
+![Medallion Architecture](./notebooks/07-images/formula1-incremental-data-processing.png)
 
 ### Bronze Layer
+
 Raw ingestion layer:
 
 - Circuits
@@ -62,6 +63,7 @@ Raw ingestion layer:
 - Sprint data
 
 ### Silver Layer
+
 Transformation and standardization layer:
 
 - Data cleansing
@@ -71,6 +73,7 @@ Transformation and standardization layer:
 - Business transformations
 
 ### Gold Layer
+
 Business-ready analytical layer:
 
 - `dim_drivers`
@@ -85,11 +88,11 @@ Business-ready analytical layer:
 
 ### Silver Schema
 
-![Silver ERD](notebooks/07-images/formula1-silver-data-erd.png)
+![Silver ERD](./notebooks/07-images/formula1-silver-data-erd.png)
 
 ### Gold Schema
 
-![Gold ERD](notebooks/07-images/formula1-gold-data-erd.png)
+![Gold ERD](./notebooks/07-images/formula1-gold-data-erd.png)
 
 ---
 
